@@ -1,0 +1,253 @@
+#hi{
+    font-size: 2vh;
+    text-align: center;
+    color: rgb(123, 123, 123);
+    position: relative;
+    bottom: 2vh;
+    left:22vw;
+    
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:5vh;
+    position: relative;
+    left:30vw;
+}
+h3{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left:30vw;
+    top:3vw;
+
+}
+#ss{
+    
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        left:30vw;
+        top:7vw;
+    
+    
+}
+.img-circle {
+    border-radius: 50%;
+  }
+  img.img-circle {
+    background:black;
+  }
+  span {
+   left:0;
+   text-align:center;
+   width:100%;
+   background:rgba(255,255,255,0.5);
+   bottom:0;
+   padding:20px 0;
+  }
+  .img-thumbnail {
+  border-radius: 0;
+  display:inline-block;
+  background:#dbdbdb;
+  padding:20px;
+   }
+  .img-thumbnail > div {
+  display:inline-block;
+  overflow: hidden;
+  height: 140px;
+  border: 5px solid #fff;
+  -webkit-box-shadow: 0 2px 0 2px #333;
+  box-shadow: 0 2px 0 2px #333;
+  border-radius:50%;
+  }
+  input{
+    position: relative;
+    left:30vw;
+        top:8vw;
+    
+  }
+  body {
+	display: grid;
+	place-content: center;
+	height: 100vh;
+	margin: 0;
+	grid-template: repeat(3,1fr) / repeat(3,1fr);
+	overflow: hidden;
+	* { outline: none; }
+}
+div {
+	display: grid;
+	place-content: center;
+}
+input[type=text] {
+	appearance: none;
+	border: none;
+	outline: none;
+    width: 40vw;
+	border-bottom: .2em solid #606060;
+	background: rgba(#E91E63, .2);
+	border-radius: .2em .2em 0 0;
+	padding: .4em;
+	
+}
+::placeholder {
+    color:rgba(45, 43, 43, 0.5);
+    opacity: 1; /* Firefox */
+  }
+  
+  ::-ms-input-placeholder { /* Edge 12 -18 */
+    color:rgba(255,255,255,0.5);
+  }
+#avatar{
+    height: 11vw;
+    width: 11vw;
+    border-radius: 55%;
+    border-style:dashed;
+    border-color: #959494;
+
+    position: relative;
+    left:30vw;
+    top:0vw;
+}
+#a{
+    width: 10vw;
+    height: 4vh;
+    position: relative;
+    font-weight: bold;
+    position: relative;
+    left:45vw;
+    
+    
+    border-width: 0.2vh;
+    border-radius: 7%;
+    border-color: #dbdbdb;
+    background-color: white;
+    color: #000;
+}
+#i{
+    font-size: 2vh;
+    text-align: center;
+    color: rgb(123, 123, 123);
+    position: relative;
+    
+    left:32vw;
+    top:18vh;
+   
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #gg{
+    height: 3vh;
+     width: 3vh;
+  }
+  #l{
+    position: relative;
+    bottom: 10vh;
+  }
+  #aq{
+    width: 14vw;
+    height: 6vh;
+    position: relative;
+    font-weight: bold;
+
+    top: 20vh;
+      
+    border-width: 0;
+    border-radius: 7%;
+   
+    background-color:#ea4b8a;
+    color: #ffffff;
+   
+  }
+  #dd{
+    width: 13vw; 
+    height: 8vh;
+  }
+
+
+
+  @media screen and (max-width:600px){
+    #dd{
+      width:150px ;
+      height: 50px;
+      position: relative;
+    }
+    #head{
+
+      font-size: 20px;
+      width: max-content;
+      font-family: Arial, Helvetica, sans-serif;
+      position: absolute;
+      left: 20px;
+      top: 100px;
+    }
+   
+
+    #hi{
+      font-size: 10px;
+      width: max-content;
+      font-family: Arial, Helvetica, sans-serif;
+      position: absolute;
+      left: 60px;
+      bottom: 615px;
+
+    }
+    #a{
+      position: relative;
+      top:240px;
+      width:max-content;
+      height: auto;
+      left: 190px;
+    }
+    #avatar{
+      position: relative;
+      top:160px;
+      left: 40px;
+      width: 120px;
+      height: 120px;
+      border-radius: 55%;
+      border-style:dashed;
+      border-color: #959494;
+  
+
+    }
+    #aq{
+      position: relative;
+      top:60px;
+      width: 120px;
+    }
+    #i{
+      font-size: 10px;
+      width: max-content;
+      top:240px;
+      left:180px;
+
+
+
+    }
+    #l{
+      position: absolute;
+      top:350px;
+      left:-80px;
+      
+      
+
+    }
+    #gg{
+      
+      width: 10px;
+      height: 10px;
+
+    }
+    h3{
+      
+      
+      font-family: Arial, Helvetica, sans-serif;
+      position: absolute;
+      left:30px;
+      top: 220px;
+      
+    }
+
+
+  }

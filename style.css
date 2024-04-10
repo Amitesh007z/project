@@ -1,0 +1,272 @@
+.myButton {
+    background-color: #adadad; /* Green color */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px; /* Add rounded corners */
+    display: none;
+   
+  }
+  h2{
+    font-weight: bolder;
+    font-size: 3vw;
+    text-align: center;
+  }
+  #hi{
+    font-size: 1vw;
+    text-align: center;
+    color: rgb(123, 123, 123);
+    position: relative;
+    bottom: 2vh;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.bt1{
+    height:10vw ;
+    width:28vh ;
+    text-align: center;
+    position: relative;
+    left:4vw;
+body{
+      font-family: Arial, Helvetica, sans-serif;
+  
+    }
+    
+   
+ 
+}
+#s{
+    position: relative;
+    top:5vh;
+} 
+#bt2{
+    
+        height:8vw ;
+        width:39vh ;
+        text-align: center;
+        position: relative;
+        left:1vw;
+        top:2vh;
+        
+       
+     
+    
+}
+h3{
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+#fs{  
+    display: inline-block;
+    position: relative;
+    left:17vw;
+    top:3vh;
+    height:20vw ;
+    width:45vh ;
+border:solid grey 1vh;
+border-radius: 7%;
+border-color: #adadad;
+border-width:thin;
+}  
+#ft{
+     
+    
+        position: relative;
+        left:40vw;
+    
+        height:20vw ;
+        width:45vh ;
+        bottom: 40vh;
+    border:solid grey 1vh;
+    border-radius: 7%;
+    border-color: #adadad;
+    border-width:thin;
+    }  
+    #fq{
+     
+    
+        position: relative;
+        left:63vw;
+ 
+        height:20vw ;
+        width:45vh ;
+        bottom: 83vh;
+    border:solid grey 1vh;
+    border-radius: 7%;
+    border-color: #adadad;
+    border-width:thin;
+    }    
+    #f{
+        font-size: 1vw;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        position: relative;
+        font-weight:700;
+        bottom: 2vh;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        position: relative;
+        bottom:75vh;
+        left:5vh;
+      } 
+      .bu {
+        background-color: #ea4b8a;
+        border: none;
+        color: white;
+        
+        
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 1vh;
+      
+        cursor: pointer;
+        position: relative;
+        bottom:75vh;
+        left:93vh;
+        width: 15vw;
+        font-size: 3vh;
+      }
+body{
+    display: block;
+    height: 50vh;
+   
+}
+#img{
+  width: 13vw; 
+  height: 8vh;
+}
+
+
+
+@media screen and (max-width:600px){
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  
+
+#img{
+  width:150px ;
+  height: 50px;
+  position: relative;
+  
+  
+}
+#head{
+  font-size: 40px;
+  position: relative;
+  top:30px;
+  left:13px;
+}
+#hi{
+  position: relative;
+  top:30px;
+  left:13px;
+  font-size:20px;
+
+
+}
+#main{
+  position: relative;
+  top:500px;
+  left:13px;
+}
+
+#ft{
+
+  position: relative;
+
+}#fq{
+
+  position: relative;
+ left:50px;
+ bottom: 730px;
+ 
+ width:250px ;
+  height:200px ;
+}
+#ft{
+
+  position: relative;
+ left:30px;
+ bottom: 250px;
+ width:300px ;
+  height:150px ;
+ 
+}
+#fs{
+  position: relative;
+  left:50px;
+  top:300px;
+  
+  width:250px ;
+   height:200px ;
+ }
+#bt2{
+  width:250px ;
+  height:100px ;
+position: relative;
+left: 20px;
+}
+#lo{
+  width:220px ;
+  height:150px ;
+  position: relative;
+  top:40px;
+}
+#jo{
+  
+
+  width:220px ;
+  height:150px ;
+}
+#qw{
+  width: max-content;
+  position: relative;
+  bottom:320px;
+  left: 0px;
+  
+}
+#s{
+  width: max-content;
+  position: relative;
+  top:420px;
+  left:20px;
+  
+}
+#we{
+
+ width: max-content;
+  position: relative;
+  bottom:-30px;
+  
+}
+#f{
+  width: max-content;
+  position: relative;
+  left: 60px;
+  top:550px;
+  font-size: 15px;
+  text-align: center;
+
+}
+
+.bu{
+  width: 140px;
+  position: relative;
+  left: 120px;
+  top:550px;
+  
+  text-align: center;
+
+
+}
+}
+
+

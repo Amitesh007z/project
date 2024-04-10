@@ -1,0 +1,250 @@
+#aq{
+    width: 7vw;
+    height: 6vh;
+    position: relative;
+    font-weight: bold;
+    left:1vw;
+
+   
+      
+    border-width: 0;
+    border-radius: 7%;
+   
+    background-color:#ea4b8a;
+    color: #ffffff;
+   
+  }
+
+  #hu{
+    position: relative;
+    bottom: 8vh;
+    width: 9vw;
+    height: 7vh;
+    mix-blend-mode:multiply;
+  }
+  .navbar .navbar-nav .nav-link {
+    color: #e50000;
+  }
+  .sm-icons {
+    flex-direction: row;
+  }
+  .sm-icons .nav-link {
+    padding-right: 1em;
+  }
+  
+  #hhh{
+    text-align: center;
+    font-weight: bold;
+   
+    
+  }
+  #kj{
+    position: relative;
+    top:15vh;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  *{
+    margin:0px;
+    padding:0px;
+  }
+  .his{
+    font-size: 2vh;
+    text-align: center;
+    color: rgb(219, 219, 219);
+    position: relative;
+    top:20vh;
+    font-weight: bold;
+    
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #jis{
+    font-size: 2vh;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top:22vh;
+    
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  footer{
+    background-color:white;
+    width: 200vh;
+    height: 100vh;
+    position: relative;
+    top:70vh;
+  }
+  #bag{
+
+    position: relative; 
+    top:1vh;
+    right: 1vw;
+    width:30 ;
+    height:30;
+  }
+
+
+  @media screen and (max-width:600px){
+  .hi{
+    width:22vh ;
+    height: 10vh;
+    position: relative;
+    bottom: 0vh;
+    left:-60vh;
+  
+
+  }
+  #hu{
+    width:200px ;
+    height: 70px;
+    mix-blend-mode:multiply;
+    position: relative;
+    right: 15px;
+    top: -37px;
+    }
+    #for{
+
+    margin-right: 14px;
+  }
+
+  #hire{
+    margin-right: 14px;
+
+
+  }
+  #comp{
+    margin-right: 7px;
+  }
+  #des{
+    margin-right: 20px;
+  }
+  #direc{
+    margin-right:-2px;
+  }
+  #ul1{
+
+    font-size: 30px;
+    position: relative;
+    bottom: 7vh;
+    left:5vh;
+
+
+  }
+  #search{
+    display: none;
+  }
+  #bag{
+    position: absolute;
+    width:10vh ;
+    height: 6vh;
+    top:7vh;
+  
+    
+    left:130vh;
+  }
+  #tom{
+    position: absolute;
+    width: 7vh;
+    height: 7vh;
+    bottom: 9vh;
+    left:6vh;
+ 
+ 
+  
+    
+   
+  }
+
+  
+  #aq{
+
+    position:absolute;
+    width: 15vh;
+    height: 7vh;
+    bottom: 10vh;
+    left:18vh;
+    font-size: 26px;
+ 
+
+  }
+  #head{
+    width: max-content;
+
+
+  }
+  #kj{
+     position: relative;
+     left: 55vh;
+     font-size: 40px;
+     width: max-content;
+     top:20vh;
+    
+  }
+  #mail{
+    position:relative;
+     left: 60vh;
+     width: 30vh;
+     height: 19vh;
+     margin-top:40px;
+     
+     
+     
+  }
+ .his{
+  font-size: 23px;
+  position: relative;
+  left:37vh;
+  width: max-content;
+  top:20vh;
+  text-align: center;
+
+ }
+ #his1{
+  font-size: 23px;
+  position: relative;
+  left:42vh;
+  width: max-content;
+  top:25vh;
+  text-align: center;
+
+
+ }
+ #his2{
+  font-size: 23px;
+  position: relative;
+  left:25vh;
+  width: max-content;
+  top:25vh;
+  text-align: center;
+
+
+ }
+ #his3{
+  font-size: 23px;
+  position: relative;
+  left:43vh;
+  width: max-content;
+  top:25vh;
+  text-align: center;
+
+
+ }
+ #his4{
+  font-size: 23px;
+  position: relative;
+  left:60vh;
+  width: max-content;
+  top:25vh;
+  text-align: center;
+
+
+ }
+ #jis{
+  font-size: 23px;
+  position: relative;
+  left:64vh;
+  width: max-content;
+  top:22vh;
+
+ }
+}

@@ -1,0 +1,260 @@
+#fn input{
+
+    width: 14vw;
+    height: 5vh;
+    border-radius: 2%;
+    border: 0;
+    background-color: #f3f3f3;
+    border-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#fn{
+    display: inline-block;
+    position: relative;
+    left:45vw;
+    bottom: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    
+}
+
+label{
+    font-size: 2vw;
+    font-weight: bold;
+    position: relative;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+#sn input{
+
+    width: 14vw;
+    height: 5vh;
+    border-radius: 2%;
+    border: 0;
+    border-style: none;
+    background-color: #f3f3f3;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+#sn{
+    display: inline-block;
+    position: relative;
+    left:50vw;
+    bottom: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+  
+}
+.tn input{
+
+    width: 34vw;
+    height: 5vh;
+    border: 0;
+    border-radius: 2%;
+    border-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    background-color: #f3f3f3;
+}
+.tn{
+    display: inline-block;
+    position: relative;
+    left:45vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    bottom: 99vh;
+}
+.ps input{
+
+    width: 34vw;
+    border: 0;
+    border-style: none;
+    height: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    border-radius: 2%;
+    background-color: #f3f3f3;
+}
+.ps{
+    display: inline-block;
+    position: relative;
+    left:10.5vw;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    bottom: 84vh;
+}
+
+
+p{
+    position: relative;
+    left: 96vh;
+    bottom: 83vh;
+
+}
+.bu {
+    background-color: #ea4b8a;
+    border: none;
+    color: white;
+    height: 6vh;
+    position: relative;
+    bottom:80vh ;
+    left:97vh;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 1vh;
+   
+    cursor: pointer;
+    position: relative;
+    
+    width: 12vw;
+  }
+
+
+h4{
+    position: relative;
+    left: 175vh;
+    bottom: 100vh;
+
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 750;
+    position: relative;
+    left: 95vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    bottom: 100vh;
+
+  }
+  .ji{
+    font-size: 2vh; 
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #img{
+    height:100vh;
+    width: 75vh;
+    position: relative;
+     right: 2vh
+  }
+
+
+  @media screen and (max-width:600px){
+  #img{
+    position: relative;
+    bottom: 20px;
+
+    width:360px;
+    height: 500px;
+  }
+  label{
+    
+    font-weight: bold;
+    position: relative;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+  #h{
+    position: relative;
+    top: 400px;
+    left: 0px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    width:fit-content;
+    
+  }
+  #fn{
+position: absolute;
+left:10px;
+top:500px;
+
+font-size:15px;
+  }
+  #sn{
+    position: absolute;
+left:180px;
+top:500px;
+
+font-size:15px;
+
+  }
+  #sn input{
+
+
+    width: 140px;
+  }
+  #fn input{
+
+    width: 140px;
+  }
+  .ps{
+    position: relative;
+    top: -50px;
+    left: 0px;
+    
+    font-size:15px;
+
+  }
+  .ps input{
+
+    width: 320px;
+  }
+  .tn{
+    position: relative;
+    top: -50px;
+    left: 0px;
+    
+    font-size:15px;
+
+  }
+  .tn input{
+
+    width: 320px;
+  }
+#check{
+    position: relative;
+    top: -50px;
+    left: 0px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.bu{
+    position: relative;
+    top: -50px;
+    left: 0px;
+    width: 150px;
+
+
+}
+#ui{
+    position: relative;
+    top:70px;
+    left: 0px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+  }
+
+  #ui{
+    position: relative; 
+    bottom: 76vh;
+    font-size: 2vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+  }
